@@ -38,3 +38,60 @@
 .ticket.xxl {
   height: 600px;
 }
+
+.f-mobile {
+  background-position-x: -50px;
+}
+
+@media only screen and (max-width: 1024px) {
+   .hero-title {
+    font-size: 5rem;
+  }
+  .hero-banner {
+    height: 70vh;
+  }
+  .f-mobile {
+    background-position-x: -130px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .ticket.large {
+    background-position-x: -100px;
+  }
+
+  #l-mobile {
+    background-position-y: initial;
+  }
+  #l2-mobile {
+    background-position-x: -100px;
+  }
+  #l3-mobile {
+    background-position-y: initial;
+  }
+  .hero-title {
+    font-size: 4.5rem;
+  }
+  .hero-banner {
+    height: 70vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+   .hero-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+   .hero-title {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+   .hero-title {
+    font-size: 1.8rem;
+  }
+}
